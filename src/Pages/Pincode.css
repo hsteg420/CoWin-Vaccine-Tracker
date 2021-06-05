@@ -1,0 +1,47 @@
+.pincode {
+  display: flex;
+  justify-content: center;
+}
+.form-data {
+  top: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+  padding: 20px;
+  width: 450px;
+  height: 90px;
+  border-radius: 20px;
+  background: linear-gradient(
+    159deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgb(93, 127, 201) 71%,
+    rgb(69, 67, 189) 92%
+  );
+}
+.btn {
+  top: 8%;
+  width: 80px;
+  left: 40%;
+}
+.not {
+  color: rgb(80, 79, 79);
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+}
+.form-design{
+  top: 9%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 620px;
+  height: 100px;
+  border-radius: 20px;
+  background: linear-gradient(
+    159deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgb(93, 127, 201) 71%,
+    rgb(69, 67, 189) 92%
+  );
+}

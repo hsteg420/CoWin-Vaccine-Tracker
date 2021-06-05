@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+import ButtonAppBar from "./components/ButtonAppBar";
+import District from "./Pages/District";
+import Home from "./components/Home";
+import Pincode from "./Pages/Pincode";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <ButtonAppBar />
+      <Switch>
+        <Route path="/" component={Home} exact />
+        <Route path="/pincode" component={Pincode} />
+        <Route path="/district" component={District} />
+      </Switch>
+    </BrowserRouter>
   );
 }
-
 export default App;

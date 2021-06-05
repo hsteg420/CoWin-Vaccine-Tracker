@@ -1,0 +1,29 @@
+body{
+  background-color: rgb(5, 5, 5);
+}
+.heading{
+  display:flex;
+  justify-content: center;
+}
+.layout{
+  display: flex;
+  justify-content:center;
+}
+.logo{
+  display: flex;
+  justify-content: center;
+}
+.form-style {
+  margin: 22px;
+  padding: 23px;
+  width: 550px;
+  height: 440px;
+  border-radius: 24px;
+  background: linear-gradient(
+    159deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgb(93, 127, 201) 71%,
+    rgb(69, 67, 189) 92%
+  );
+}
+
